@@ -1,6 +1,4 @@
 # ninja log v6
-2	353	1756996750659123782	CMakeFiles/hello_window.dir/src/main.cpp.o	33229c34da2f1c51
-353	431	1756996751010509253	hello_window	b7b4ef5c1a8cb6fc
+1	372	1756998513040216474	CMakeFiles/hello_window.dir/src/main.cpp.o	28d19cf0546cc97
+372	455	1756998513411216265	hello_window	b7b4ef5c1a8cb6fc
 2	135	1756996590879239103	CMakeFiles/hello_window.dir/src/glad.c.o	e49e7727880365bc
-1	347	1756997470575730099	CMakeFiles/hello_window.dir/src/main.cpp.o	28d19cf0546cc97
-347	424	1756997470921729975	hello_window	b7b4ef5c1a8cb6fc

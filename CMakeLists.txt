@@ -3,6 +3,7 @@ project(hello_window VERSION 1.0.0)
 
 # Find the GLFW library
 find_package(OpenGL REQUIRED)
+find_package(glfw3 REQUIRED)
 
 # Executable and its source file
 add_executable(

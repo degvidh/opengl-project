@@ -1,0 +1,3 @@
+/home/david/opengl project/build/CMakeFiles/hello_window.dir
+/home/david/opengl project/build/CMakeFiles/edit_cache.dir
+/home/david/opengl project/build/CMakeFiles/rebuild_cache.dir

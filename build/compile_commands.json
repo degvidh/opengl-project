@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/david/opengl project/build",
+  "command": "/usr/bin/g++ -I\"/home/david/opengl project/dep\" -g -std=gnu++17 -o CMakeFiles/hello_window.dir/src/main.cpp.o -c \"/home/david/opengl project/src/main.cpp\"",
+  "file": "/home/david/opengl project/src/main.cpp",
+  "output": "/home/david/opengl project/build/CMakeFiles/hello_window.dir/src/main.cpp.o"
+}
+]

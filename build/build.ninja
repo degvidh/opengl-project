@@ -65,11 +65,12 @@ build CMakeFiles/hello_window.dir/src/main.cpp.o: CXX_COMPILER__hello_window_uns
 #############################################
 # Link the executable hello_window
 
-build hello_window: CXX_EXECUTABLE_LINKER__hello_window_Debug CMakeFiles/hello_window.dir/src/main.cpp.o
+build hello_window: CXX_EXECUTABLE_LINKER__hello_window_Debug CMakeFiles/hello_window.dir/src/main.cpp.o | /usr/lib/libglfw.so.3.4
   CONFIG = Debug
   DEP_FILE = CMakeFiles/hello_window.dir/link.d
   FLAGS = -g
   LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/hello_window.dir/link.d
+  LINK_LIBRARIES = /usr/lib/libglfw.so.3.4
   OBJECT_DIR = CMakeFiles/hello_window.dir
   POST_BUILD = :
   PRE_LINK = :

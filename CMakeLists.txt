@@ -12,3 +12,5 @@ add_executable(hello_window src/config.h src/main.cpp)
 
 # Link GLFW and OpenGL to your executable
 target_include_directories(hello_window PRIVATE dep)
+
+target_link_libraries(hello_window glfw)

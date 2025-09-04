@@ -192,42 +192,9 @@
 			"path" : "/usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake"
 		},
 		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/glfw3/glfw3ConfigVersion.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/glfw3/glfw3Config.cmake"
-		},
-		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/share/cmake/Modules/FindThreads.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/share/cmake/Modules/CheckLibraryExists.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/share/cmake/Modules/CheckIncludeFile.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake"
+			"path" : "/usr/share/cmake/Modules/FindOpenGL.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -238,14 +205,6 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/usr/share/cmake/Modules/FindPackageMessage.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/glfw3/glfw3Targets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/glfw3/glfw3Targets-none.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",

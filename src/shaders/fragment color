@@ -1,0 +1,12 @@
+# version 330 core
+
+in vec3 fragmnetColor;
+
+out vec4 screenColor;
+
+void main() {
+
+    screenColor = vec4(fragmnetColor, 0.0, 1.0);
+    fragmnetColor = vertexColor;
+
+}

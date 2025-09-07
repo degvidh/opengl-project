@@ -12,6 +12,14 @@ int main()
 
      cout << "loading" << endl;
 
+     ifstream file;
+     string line;
+
+     file.open("src/shaders/vertex.txt");
+     while (getline(file, line)) {
+          cout << line << endl;
+     }
+
      GLFWwindow* window;
 
      if (!glfwInit()){
@@ -39,6 +47,7 @@ int main()
 
      }
 
+     
 
      glfwTerminate();
 

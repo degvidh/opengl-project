@@ -53,7 +53,7 @@ build CMakeFiles/hello_window.dir/src/main.cpp.o: CXX_COMPILER__hello_window_uns
   CONFIG = Debug
   DEP_FILE = CMakeFiles/hello_window.dir/src/main.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I"/home/david/opengl project/dep"
+  INCLUDES = -I"/home/david/opengl project/dep" -I"/home/david/opengl project/src"
   OBJECT_DIR = CMakeFiles/hello_window.dir
   OBJECT_FILE_DIR = CMakeFiles/hello_window.dir/src
 
@@ -61,7 +61,7 @@ build CMakeFiles/hello_window.dir/src/glad.c.o: C_COMPILER__hello_window_unscann
   CONFIG = Debug
   DEP_FILE = CMakeFiles/hello_window.dir/src/glad.c.o.d
   FLAGS = -g
-  INCLUDES = -I"/home/david/opengl project/dep"
+  INCLUDES = -I"/home/david/opengl project/dep" -I"/home/david/opengl project/src"
   OBJECT_DIR = CMakeFiles/hello_window.dir
   OBJECT_FILE_DIR = CMakeFiles/hello_window.dir/src
 

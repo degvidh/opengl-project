@@ -4,10 +4,10 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
+                "${workspaceFolder}/dep/**",
+                "${workspaceFolder}/src/**",
                 "/usr/include",
-                "/usr/include/GL",
-                "/usr/include/glad",
-                "/usr/include/GLFW"
+                "/usr/include/GL"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/g++",

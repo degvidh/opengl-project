@@ -1,13 +1,13 @@
 [
 {
   "directory": "/home/david/opengl project/build",
-  "command": "/usr/bin/g++ -I\"/home/david/opengl project/dep\" -g -o CMakeFiles/hello_window.dir/src/main.cpp.o -c \"/home/david/opengl project/src/main.cpp\"",
+  "command": "/usr/bin/g++ -I\"/home/david/opengl project/dep\" -I\"/home/david/opengl project/src\" -g -o CMakeFiles/hello_window.dir/src/main.cpp.o -c \"/home/david/opengl project/src/main.cpp\"",
   "file": "/home/david/opengl project/src/main.cpp",
   "output": "/home/david/opengl project/build/CMakeFiles/hello_window.dir/src/main.cpp.o"
 },
 {
   "directory": "/home/david/opengl project/build",
-  "command": "/usr/bin/gcc -I\"/home/david/opengl project/dep\" -g -o CMakeFiles/hello_window.dir/src/glad.c.o -c \"/home/david/opengl project/src/glad.c\"",
+  "command": "/usr/bin/gcc -I\"/home/david/opengl project/dep\" -I\"/home/david/opengl project/src\" -g -o CMakeFiles/hello_window.dir/src/glad.c.o -c \"/home/david/opengl project/src/glad.c\"",
   "file": "/home/david/opengl project/src/glad.c",
   "output": "/home/david/opengl project/build/CMakeFiles/hello_window.dir/src/glad.c.o"
 }

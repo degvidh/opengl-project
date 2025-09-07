@@ -27,6 +27,8 @@ int main()
           return -1;
      }
 
+     glfwDestroy
+
      window = glfwCreateWindow(640, 480, "My window", NULL, NULL);
      glfwMakeContextCurrent(window);
 

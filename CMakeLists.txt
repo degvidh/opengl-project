@@ -11,9 +11,9 @@ add_executable(
     src/config.h 
     src/main.cpp 
     src/glad.c
-    )
+)
 
-# Link GLFW and OpenGL to your executable
-target_include_directories(hello_window PRIVATE dep)
+# Add both dep and src directories to include path
+target_include_directories(hello_window PRIVATE dep src)
 
 target_link_libraries(hello_window glfw OpenGL::GL)

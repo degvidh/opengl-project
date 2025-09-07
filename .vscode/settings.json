@@ -3,6 +3,11 @@
         "*.glsl": "glsl",
         "*.vert": "glsl", 
         "*.frag": "glsl",
-        "*.geom": "glsl"
-    }
+        "*.geom": "glsl",
+        "*.txt": "glsl"  // Add this for your vertex.txt shader files
+    },
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/build/compile_commands.json",
+    "cmake.configureArgs": [
+        "-DCMAKE_EXPORT_COMPILE_COMMANDS=1"
+    ]
 }

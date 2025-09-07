@@ -83,6 +83,10 @@
 				{
 					"backtrace" : 7,
 					"path" : "/home/david/opengl project/dep"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/david/opengl project/src"
 				}
 			],
 			"language" : "CXX",
@@ -103,6 +107,10 @@
 				{
 					"backtrace" : 7,
 					"path" : "/home/david/opengl project/dep"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/david/opengl project/src"
 				}
 			],
 			"language" : "C",

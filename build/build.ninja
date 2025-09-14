@@ -57,13 +57,13 @@ build CMakeFiles/hello_window.dir/src/main.cpp.o: CXX_COMPILER__hello_window_uns
   OBJECT_DIR = CMakeFiles/hello_window.dir
   OBJECT_FILE_DIR = CMakeFiles/hello_window.dir/src
 
-build CMakeFiles/hello_window.dir/src/glad.c.o: C_COMPILER__hello_window_unscanned_Debug /home/david/opengl$ project/src/glad.c || cmake_object_order_depends_target_hello_window
+build CMakeFiles/hello_window.dir/dep/glad/glad.c.o: C_COMPILER__hello_window_unscanned_Debug /home/david/opengl$ project/dep/glad/glad.c || cmake_object_order_depends_target_hello_window
   CONFIG = Debug
-  DEP_FILE = CMakeFiles/hello_window.dir/src/glad.c.o.d
+  DEP_FILE = CMakeFiles/hello_window.dir/dep/glad/glad.c.o.d
   FLAGS = -g
   INCLUDES = -I"/home/david/opengl project/dep" -I"/home/david/opengl project/src"
   OBJECT_DIR = CMakeFiles/hello_window.dir
-  OBJECT_FILE_DIR = CMakeFiles/hello_window.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/hello_window.dir/dep/glad
 
 
 # =============================================================================
@@ -73,7 +73,7 @@ build CMakeFiles/hello_window.dir/src/glad.c.o: C_COMPILER__hello_window_unscann
 #############################################
 # Link the executable hello_window
 
-build hello_window: CXX_EXECUTABLE_LINKER__hello_window_Debug CMakeFiles/hello_window.dir/src/main.cpp.o CMakeFiles/hello_window.dir/src/glad.c.o | /usr/lib/libglfw.so.3.4 /usr/lib/libGLX.so /usr/lib/libOpenGL.so
+build hello_window: CXX_EXECUTABLE_LINKER__hello_window_Debug CMakeFiles/hello_window.dir/src/main.cpp.o CMakeFiles/hello_window.dir/dep/glad/glad.c.o | /usr/lib/libglfw.so.3.4 /usr/lib/libGLX.so /usr/lib/libOpenGL.so
   CONFIG = Debug
   DEP_FILE = CMakeFiles/hello_window.dir/link.d
   FLAGS = -g

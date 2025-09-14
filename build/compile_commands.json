@@ -7,8 +7,8 @@
 },
 {
   "directory": "/home/david/opengl project/build",
-  "command": "/usr/bin/gcc -I\"/home/david/opengl project/dep\" -I\"/home/david/opengl project/src\" -g -o CMakeFiles/hello_window.dir/src/glad.c.o -c \"/home/david/opengl project/src/glad.c\"",
-  "file": "/home/david/opengl project/src/glad.c",
-  "output": "/home/david/opengl project/build/CMakeFiles/hello_window.dir/src/glad.c.o"
+  "command": "/usr/bin/gcc -I\"/home/david/opengl project/dep\" -I\"/home/david/opengl project/src\" -g -o CMakeFiles/hello_window.dir/dep/glad/glad.c.o -c \"/home/david/opengl project/dep/glad/glad.c\"",
+  "file": "/home/david/opengl project/dep/glad/glad.c",
+  "output": "/home/david/opengl project/build/CMakeFiles/hello_window.dir/dep/glad/glad.c.o"
 }
 ]

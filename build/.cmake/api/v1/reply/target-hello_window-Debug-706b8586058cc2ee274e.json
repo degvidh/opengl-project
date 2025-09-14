@@ -176,7 +176,7 @@
 	[
 		{
 			"backtrace" : 1,
-			"path" : "src/config.h",
+			"path" : "dep/config.h",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -188,7 +188,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
-			"path" : "src/glad.c",
+			"path" : "dep/glad/glad.c",
 			"sourceGroupIndex" : 1
 		}
 	],

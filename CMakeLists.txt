@@ -8,9 +8,9 @@ find_package(glfw3 REQUIRED)
 # Executable and its source file
 add_executable(
     hello_window 
-    src/config.h 
+    dep/config.h 
     src/main.cpp 
-    src/glad.c
+    dep/glad/glad.c
 )
 
 # Add both dep and src directories to include path

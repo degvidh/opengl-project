@@ -7,27 +7,29 @@ using namespace std;
 
 */
 
+float times = 0.0f;
+
+void processInput(GLFWwindow *window);
+float rainbowLoop();
+
 int main()
 {
-
-     cout << "loading" << endl;
 
      ifstream file;
      string line;
 
-     file.open("src/shaders/vertex.txt");
-     while (getline(file, line)) {
-          cout << line << endl;
+     file.open("/home/david/opengl project/src/shaders/vertex.txt");
+
+     if(!file.is_open()) { 
+          cout << "couldnt open file" << endl;
      }
 
      GLFWwindow* window;
 
-     if (!glfwInit()){
+     if (!glfwInit()) {
           cout << "glfw couldn't load in" << endl;
           return -1;
      }
-
-     glfwDestroy
 
      window = glfwCreateWindow(640, 480, "My window", NULL, NULL);
      glfwMakeContextCurrent(window);
@@ -37,21 +39,36 @@ int main()
           return -1;
      }
 
-     glClearColor(0.25f, 0.5f, 0.75f, 1.0f);
-
      while (!glfwWindowShouldClose(window)) {
 
-          glfwPollEvents();
+          // the input proccesing funcs
+          processInput(window);
 
-          glClear(GL_COLOR_BUFFER_BIT);
-     
-          glfwSwapBuffers(window);
+          // the rendering funcs
+
+               // the background
+               glClearColor(0.5f, 0.5f, 0.5f, 1.0f);
+
+          // updates the color on the screen 
+          glClear(GL_COLOR_BUFFER_BIT); 
+          // updates the keyboard inputs
+          glfwPollEvents(); 
+          // updates the screen basically
+          glfwSwapBuffers(window); 
 
      }
-
-     
 
      glfwTerminate();
 
      return 0;
+}
+
+void processInput(GLFWwindow *window){
+
+     if(glfwGetKey(window, GLFW_KEY_W ) == GLFW_PRESS) {
+
+     //cout << "w" << times << "!!" << endl;
+
+     }
+
 }
